@@ -1,0 +1,43 @@
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  body.overflow-fixed {
+    overflow-y: hidden;
+  }
+
+  .position-fixed {
+    overflow: hidden;
+  }
+
+  .mobile-hidden {
+    display: none !important;
+  }
+
+  .responsive-hidden {
+    display: none;
+  }
+
+  header .header-div.header-sticky .header-container {
+    min-height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  body.overflow-fixed {
+    overflow-y: hidden;
+  }
+
+  .position-fixed {
+    overflow: hidden;
+  }
+
+  .responsive-hidden {
+    display: none;
+  }
+}
